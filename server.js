@@ -62,6 +62,11 @@ app.get("/api/visitors", function (request, response) {
   });
 });
 
+app.get("/quickdraw", function (request, response) {
+  app.use(express.static(__dirname + '/views/quickdraw'));
+});
+
+
 
 // load local VCAP configuration  and service credentials
 var vcapLocal;

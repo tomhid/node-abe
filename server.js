@@ -62,12 +62,6 @@ app.get("/api/visitors", function (request, response) {
   });
 });
 
-app.get("/quickdraw", function (request, response) {
-  app.use(express.static(__dirname + '/quickdraw'));
-});
-
-
-
 // load local VCAP configuration  and service credentials
 var vcapLocal;
 try {
@@ -102,7 +96,7 @@ if (appEnv.services['cloudantNoSQLDB']) {
 //serve static file (index.html, images, css)
 app.use(express.static(__dirname + '/views'));
 
-
+app.use('/quickdraw', require('./routes/quickdraw'));
 
 var port = process.env.PORT || 3000
 app.listen(port, function() {

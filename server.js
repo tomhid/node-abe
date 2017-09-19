@@ -63,7 +63,7 @@ app.get("/api/visitors", function (request, response) {
 });
 
 app.get("/quickdraw", function (request, response) {
-  app.use(express.static(__dirname + '/views/quickdraw'));
+  app.use(express.static(__dirname + '/quickdraw'));
 });
 
 

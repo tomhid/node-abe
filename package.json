@@ -20,7 +20,9 @@
     "cloudant": "^1.7.x",
     "dotenv": "^4.0.0",
     "express": "^4.15.x",
-    "ejs": "^2.5.7"
+    "ejs": "^2.5.7",
+    "urlsafe-base64": "^1.0.0",
+    "fs": "^0.0.1-security"
   },
   "author": "IBM Corp",
   "license": "Apache-2.0"

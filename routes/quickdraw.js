@@ -18,11 +18,11 @@ b64img2 = b64img.replace(/ /g, '+');
 //console.log(b64img2.length);
 //var base64 = require('urlsafe-base64');
 //var img = base64.decode( b64img );
-//var fs = require('fs');
+var fs = require('fs');
 //fs.writeFile('sample.png', img, function (err) {
 //    console.log(err);
 //});
-//fs.writeFile("sample2.png", new Buffer(b64img2, "base64"), function(err) {});
+fs.writeFile("sample2.png", new Buffer(b64img2, "base64"), function(err) {});
 //fs.writeFile("sample.txt", b64img.toString(), function(err) {});
 //fs.writeFile("sample2.txt", b64img2.toString(), function(err) {});
 

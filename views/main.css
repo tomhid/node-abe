@@ -1,0 +1,187 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background-color: white;
+}
+
+#myCanvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 510px;
+	height: 510px;
+	background-color: rgba(255,255,255,0);
+	border: solid thin gray;
+	z-index: 20;
+}
+
+#answerCanvas1 {
+	position: absolute;
+	top: 30px;
+	left: 630px;
+	width: 480px;
+	height: 120px;
+	background-color: rgba(255,255,255,0);
+	border: solid thin blue;
+	z-index: 20;
+}
+#answerTitle1 {
+	position:absolute;
+	left : 630px;
+	top: 0px;
+	font-size: 32px;
+	color: black;
+}
+
+#answerCanvas2 {
+	position: absolute;
+	top: 190px;
+	left: 630px;
+	width: 480px;
+	height: 120px;
+	background-color: rgba(255,255,255,0);
+	border: solid thin orange;
+	z-index: 20;
+}
+#answerTitle2 {
+	position:absolute;
+	left : 630px;
+	top: 160px;
+	font-size: 32px;
+	color: black;
+}
+
+#answerCanvas3 {
+	position: absolute;
+	top: 360px;
+	left: 630px;
+	width: 480px;
+	height: 120px;
+	background-color: rgba(255,255,255,0);
+	border: solid thin red;
+	z-index: 20;
+}
+#answerTitle3 {
+	position:absolute;
+	left : 630px;
+	top: 330px;
+	font-size: 32px;
+	color: black;
+}
+
+
+#menu {
+	position:absolute;
+	left : 10px;
+	top: 530px;
+}
+
+#clear {
+	position:absolute;
+	left : 60px;
+	top: 530px;
+}
+
+#logo {
+	position:absolute;
+	left : 0px;
+	top: 110px;
+	transform-origin: 0 0;
+    transform: scale(0.8);
+	z-index: 10;
+	filter:alpha(opacity=20);
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+}
+#logo_ibm {
+	position:absolute;
+	left : 630px;
+	top: 0px;
+	transform-origin: 0 0;
+    transform: scale(1.5);
+	height: auto;
+	z-index: 10;
+	filter:alpha(opacity=10);
+	-moz-opacity: 0.1;
+	opacity: 0.1;
+}
+#logo_ms {
+	position:absolute;
+	left : 700px;
+	top: 200px;
+	transform-origin: 0 0;
+    transform: scale(0.8);
+	height: auto;
+	z-index: 10;
+	filter:alpha(opacity=10);
+	-moz-opacity: 0.1;
+	opacity: 0.1;
+}
+#logo_gcp {
+	position:absolute;
+	left : 630px;
+	top: 390px;
+	transform-origin: 0 0;
+    transform: scale(0.8);
+	height: auto;
+	z-index: 10;
+	filter:alpha(opacity=10);
+	-moz-opacity: 0.1;
+	opacity: 0.1;
+}
+
+
+#title {
+	position:absolute;
+	left : 100px;
+	top: 310px;
+	font-size: 48px;
+	width: 500px;
+	z-index: 10;
+	filter:alpha(opacity=20);
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+}
+#title2 {
+	position:absolute;
+	left : 0px;
+	top: 550px;
+	font-size: 52px;
+	font-family:MV Boli;
+	color:gray;
+	width: 700px;
+}
+
+#arrow1,#arrow2,#arrow3,#arrow4,#arrow5,#arrow6,#arrow7,#arrow8,#arrow9,#arrow10 {
+	position:absolute;
+	left : 555px;
+	font-size: 32px;
+	color: gray;
+	visibility: hidden;
+}
+#arrow1 {
+	top: 0px;
+}
+#arrow2 {
+	top: 64px;
+}
+#arrow3 {
+	top: 128px;
+}
+#arrow4 {
+	top: 192px;
+}
+#arrow5 {
+	top: 256px;
+}
+#arrow6 {
+	top: 320px;
+}
+#arrow7 {
+	top: 384px;
+}
+#arrow8 {
+	top: 448px;
+}
